@@ -15,8 +15,8 @@
            run: |
               echo 'Viewing the file: '   
               cat requirements.txt 
-
-         name: Python safety check
+              
+ name: Python safety check
 
 on:
   push:
@@ -30,9 +30,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out master
-        uses: actions/checkout@master
+      - name: Check out main
+        uses: actions/checkout@main
 
       - name: Security vulnerabilities scan
-        uses: aufdenpunkt/python-safety-check@main
-          
+        uses: aufdenpunkt/python-safety-check@main            
