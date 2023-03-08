@@ -16,15 +16,15 @@
               echo 'Viewing the file: '   
               cat requirements.txt 
               
- name: Python safety check
+#  name: Python safety check
 
 on:
   push:
     branches:
       - main
 
-env:
-  DEP_PATH: src/requirements.txt
+# env:
+#   DEP_PATH: src/requirements.txt
 
 jobs:
   build:
