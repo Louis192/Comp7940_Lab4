@@ -13,7 +13,7 @@
            
          - name: View a file           # Step 3: Two sub-steps involved
            run: |
-              echo 'Viewing the file: '   
+              echo 'Viewing the file:'   
               cat requirements.txt 
 
          - name: aufdenpunkt         # Step 4: Check python source code security
