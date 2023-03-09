@@ -16,8 +16,8 @@
               echo 'Viewing the file: '   
               cat requirements.txt 
 
-         - name: aufdenpunkt         # Step 4: Check python source code security
-           dependencies:  python-safety-check
+         - name: 'aufdenpunkt'         # Step 4: Check python source code security
+           run: python-safety-check
                
 
       
