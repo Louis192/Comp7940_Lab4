@@ -17,7 +17,7 @@
               cat requirements.txt 
 
          - name: 'aufdenpunkt'         # Step 4: Check python source code security
-           run: python-safety-check
+           run: - python-safety-check
                
 
       
