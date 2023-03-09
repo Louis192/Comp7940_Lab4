@@ -15,6 +15,10 @@
            run: |
               echo 'Viewing the file: '   
               cat requirements.txt 
+              
+         - name: Python security           # Step 4: Check python source code security
+           run:  aufdenpunkt/python-safety-check
+               
 
       
               
