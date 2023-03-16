@@ -7,7 +7,7 @@ import os
 import logging
 import redis
 
-# global redis1
+global redis1
 def main():
     # Load your token and create an Updater for your Bot
     # Note that config.ini is commented out below so that my password will not be stored with the developer
